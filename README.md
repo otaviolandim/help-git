@@ -22,7 +22,7 @@ $ git config --global user.email otavio.landim@gmail.com
 ```
 #### Criando um arquivo .txt para versionarmos:
 
-Antes de criarmos o arquivo, crie um diretório chamado ```help-git/``` com um arquivo ````help-git.txt```
+Antes de criarmos o arquivo, crie um diretório chamado ```help-git/``` com um arquivo ```help-git.txt```
 Criando o diretório e o arquivo .txt (para criar o arquivo dentro do diretório, acesse-o com o comando ```cd help-git/```:
 
 ```
