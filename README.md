@@ -16,6 +16,7 @@
 Para configurar seu nome e e-mail no Git, execute os comandos abaixo:
 
 ```$ git config --global user.name "Otávio Landim"```
+
 ```$ git config --global user.email otavio.landim@gmail.com```
 
 #### Criando um arquivo .txt para versionarmos:
@@ -25,6 +26,7 @@ Antes de criarmos o arquivo, crie um diretório chamado ```help-git/``` com um a
 Criando o diretório e o arquivo .txt (para criar o arquivo dentro do diretório, acesse-o com o comando ```cd help-git/```:
 
 ```$ mkdir help-git/```
+
 ```$ touch help-git.txt```
 
 Edite o arquivo ```help-git.txt``` e adicione algum conteúdo:
@@ -56,7 +58,7 @@ Caso, tenha mais de um arquivo no seu diretório para rastrear, basta executar o
 
 ```$ git commit -m "Arquivo inicial"```
 
-```-m``` : Informar a mensagem do commit. Caso não informe a opção -m, será aberto um editor de texto para informarmos a mensagem.
+```-m``` : Caso não informe a opção -m, será aberto um editor de texto para informar.
 
 #### Adicionando e gravando o arquivo:
 
@@ -65,17 +67,17 @@ Para adicionar e gravar (commit) em um único comando, basta digitar:
 ```$ git commit -am "Mensagem do commit"```
 
 ```-a``` : Adiciona o arquivo (add) na área de stage.
-```-m``` : Mensagem do commit
+```-m``` : Mensagem do commit.
 
 #### Verificar histórico das alterações (repositório):
 
-```$ git log```
+```$ git log```: Exibe o log de todos os commits.
 
 ```$ git log -n 2```: Exibe um resumo dos últimos 2 commits.
 
 ```$ git log --oneline```: Exibe um resumo do log de todos os commits.
 
-```$ git log --stat```: Exibe um resumo dos arquivos alterados, inclusive mostrando a quantidade de linhas adicionadas e removidas. 
+```$ git log --stat```: Exibe um resumo dos arquivos alterados, mostrando a quantidade de linhas adicionadas e removidas. 
 
 #### Exibir e revisar a modificaçao alterada:
 
@@ -112,6 +114,8 @@ Por exemplo:
 #### Enviando alteracoes para o repositório remoto:
 
 ```$ git push <nome_servidor> <branch>```
+
+Por exemplo:
 
 ```$ git push origin master```
 
