@@ -3,13 +3,13 @@
 #### Instalando e configurando o Git:
 
 #### Windows:
-[https://git-for-windows.github.io/]
+    https://git-for-windows.github.io/
 
 #### Mac:
-[https://code.google.com/archive/p/git-osx-installer/downloads]
+    https://code.google.com/archive/p/git-osx-installer/downloads
 
 #### Linux: 
-[https://git-scm.com/download/linux]
+    https://git-scm.com/download/linux
 
 #### Configurações básicas:
 
@@ -37,6 +37,8 @@ Por exemplo: "Olá, GIT!"
 Acesse o diretório ```help-git/``` e digite o comando, pronto! (esse diretório agora é um repositório GIT):
 
 ``` $ git init ```
+
+![Logo img git init](Macbook/Usuários/otaviolandim/Imagens/Captura de Tela 2017-04-19 às 08.30.58.png)
 
 #### Rastreando arquivos:
 
@@ -83,7 +85,7 @@ Para adicionar e gravar (commit) em um único comando, basta digitar:
 
 ```$ git diff```
 
-### Exibir as mudanças feitas de um commit até outro commit:
+#### Exibir as mudanças feitas de um commit até outro commit:
 
 ```$ git diff <id_commit_1>..<id_commit_2>```
 
