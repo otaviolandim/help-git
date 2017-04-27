@@ -77,6 +77,8 @@ Para adicionar e gravar (commit) em um único comando, basta digitar:
 
 ```$ git log -n 2```: Exibe um resumo dos últimos 2 commits.
 
+![alt text](screenshots/imagem2.png)
+
 ```$ git log --oneline```: Exibe um resumo do log de todos os commits.
 
 ```$ git log --stat```: Exibe um resumo dos arquivos alterados, mostrando a quantidade de linhas adicionadas e removidas. 
