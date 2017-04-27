@@ -38,7 +38,7 @@ Acesse o diretório ```help-git/``` e digite o comando, pronto! (esse diretório
 
 ``` $ git init ```
 
-![Logo img git init](Macbook/Usuários/otaviolandim/Imagens/imagem1.png)
+![alt text](screenshots/imagem1.png)
 
 #### Rastreando arquivos:
 
